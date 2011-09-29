@@ -50,9 +50,9 @@ systemConfig::$i18n = 'ru';
 ini_set('default_charset', 'utf-8');
 
 systemConfig::$db['default']['host']        = 'localhost';
-systemConfig::$db['default']['dbname']      = 'db_aworld';
-systemConfig::$db['default']['user']        = 'dbu_aworld';
-systemConfig::$db['default']['password']    = 'gy345yGFh!3';
+systemConfig::$db['default']['dbname']      = 'db';
+systemConfig::$db['default']['user']        = 'root';
+systemConfig::$db['default']['password']    = '';
 systemConfig::$db['default']['driver']      = 'pdo';
 systemConfig::$db['default']['dbtype']      = 'mysql';
 systemConfig::$db['default']['dsn']         = systemConfig::$db['default']['dbtype'] . ':host=' . systemConfig::$db['default']['host'] . ';dbname=' . systemConfig::$db['default']['dbname'];
@@ -60,10 +60,10 @@ systemConfig::$db['default']['options']     = array(
                                                 'init_query' => "SET NAMES `utf8`",
                                                 );
 
-systemConfig::$appName = 'Artificial World';
+systemConfig::$appName = 'mzz application';
 systemConfig::$appVersion = '0.1';
-systemConfig::$administrator = 'GreeveX';
-systemConfig::$administratorEmail = 'greevex@gmail.com';
+systemConfig::$administrator = 'admin';
+systemConfig::$administratorEmail = 'admin@localhost';
 
 class AppSystemConfig extends systemConfig
 {
@@ -71,8 +71,8 @@ class AppSystemConfig extends systemConfig
 }
 
 AppSystemConfig::$administrators = array();
-AppSystemConfig::$administrators['greevex']['name'] = 'GreeveX';
-AppSystemConfig::$administrators['greevex']['email'] = 'greevex@gmail.com';
+AppSystemConfig::$administrators['greevex']['name'] = 'admin';
+AppSystemConfig::$administrators['greevex']['email'] = 'admin@localhost';
 systemConfig::$enabledModules = array(
                                       'menu',
                                       'page',
@@ -97,9 +97,9 @@ systemConfig::$mailer['default']['params'] = array(
                                                     'default_topic' => systemConfig::$appName . " v" . systemConfig::$appVersion,
                                                     'html' => true,
                                                     'smtp' => true,
-                                                    'smtp_host' => 'smtp.ya.ru',
-                                                    'smtp_user' => 'robot@greevex.ru',
-                                                    'smtp_pass' => '6rhEOHZcZf',
+                                                    'smtp_host' => '',
+                                                    'smtp_user' => '',
+                                                    'smtp_pass' => '',
                                                     'smtp_port' => 25
                                                   );
 
