@@ -1,0 +1,34 @@
+div.toolbarBlockWrap {
+    width: 50%;
+     float: left;
+}
+
+div.toolbarBlock {
+    margin: 10px;
+}
+
+div.toolbarBlock img.expandClose {
+     cursor: pointer;
+     vertical-align: middle;
+}
+#aclObjects .first {
+    width: 50px;
+    text-align: center;
+}
+
+span.toolbarSectionName {
+    display: block;
+    color: #BA1B1B;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+table.toolbar {
+    margin-bottom: 5px;
+}
+
+table.toolbar .empty {
+    text-align: center;
+    font-size: 0.9em;
+}
