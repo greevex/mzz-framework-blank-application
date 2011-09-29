@@ -1,0 +1,1 @@
+{load module="comments" action="list" object=$post byField="id"}

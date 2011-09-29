@@ -1,0 +1,135 @@
+#privateMessage_mainWindow {
+    width: 230px;
+    height: auto;
+    position: fixed;
+    z-index: 9999999;
+    right:190px;
+    top:39px;
+    background-image: url(/images/privateMessage/bg.png);
+}
+
+#privateMessage_chatWindow {
+    display:none;
+    width: 500px;
+    height: 350px;
+    position: fixed;
+    z-index: 9999998;
+    left:30%;
+    top:30%;
+    background-image: url(/images/privateMessage/bg.png);
+}
+
+#privateMessage_mainWindow_title, #privateMessage_chatWindow_title {
+    position: relative;
+    top:0px;
+    padding:0;
+    margin:0;
+    width:95%;
+    height:16px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    cursor: default;
+}
+
+#privateMessage_mainWindow_contactList {
+    display:none;
+    position:relative;
+    width:92%;
+    height:450px;
+    overflow-y: auto;
+    background-color: white;
+    margin: 5%;
+}
+
+#privateMessage_chatWindow_messageList {
+    position:relative;
+    width:98%;
+    height:75%;
+    overflow-y: auto;
+    background-color: white;
+    margin: 1%;
+}
+
+#privateMessage_chatWindow_writeBlock {
+    position:relative;
+    width:98%;
+    height:13%;
+    overflow-y: auto;
+    background-color: white;
+    margin: 1%;
+}
+
+#privateMessage_chatWindow_writeBlock textarea {
+    position:relative;
+    min-width:99.7%;
+    max-width:99.7%;
+    min-height:97%;
+    max-height:97%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color:black;
+}
+
+.privateMessage_contactList_contact {
+    display: block;
+    width:95%;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #FAFAFF;
+    border-right: 1px solid #DDF;
+    border-bottom: 1px solid #DDF;
+    padding-left: 5%;
+}
+
+.privateMessage_contactList_contact:hover {
+    background-color: #EEF;
+}
+
+.privateMessage_chatWindow_message {
+    background-color:#F4F4F4;
+    border-bottom: 1px solid #999;
+    width:100%;
+    height:auto;
+}
+
+.privateMessage_chatWindow_messageAuthor {
+    position:relative;
+    width:auto;
+    float:left;
+    top:0px;
+    display:inline;
+    background-color:#EEE;
+    color:#222;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.privateMessage_chatWindow_messageText {
+    position:relative;
+    width:100%;
+    height:100%;
+    top:0px;
+    display:inline;
+    background-color:transparent;
+    color:black;
+}
+
+#privateMessage_mainWindow_close, #privateMessage_chatWindow_close {
+    cursor:pointer;
+    float:right;
+    padding:0;
+    margin:0;
+}
+
+#privateMessage {
+    z-index: 0;
+    background-color: transparent;
+    left:0px;
+    top:0px;
+    width:0px;
+    height:0px;
+}

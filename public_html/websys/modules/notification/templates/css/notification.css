@@ -1,0 +1,52 @@
+#notification_id {
+    display: none;
+}
+
+#notification {
+    border: 2px solid #600 !important;
+    position: fixed !important;
+    left: 15%;
+    margin: 0 auto !important;
+    min-width: 500px !important;
+    top: 125px;
+    width: 70% !important;
+    min-height: 400px !important;
+    height: auto !important;
+}
+
+#notification_title {
+    position: relative !important;
+    top: 0px !important;
+    height: 40px !important;
+    background-color: #600 !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    cursor: arrow !important;
+}
+
+#notification_content {
+    position: relative !important;
+    top: 0px !important;
+    height: 350px;
+    background-color: silver !important;
+    color: black !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    padding: 5px !important;
+    cursor: arrow !important;
+}
+
+#notification_close {
+    position: relative !important;
+    float: right !important;
+    cursor: pointer !important;
+}
+
+#notification_author {
+    font-weight: normal;
+    text-align: left;
+    position: relative;
+    bottom: 0px;
+    float: right;
+}

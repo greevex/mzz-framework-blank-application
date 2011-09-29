@@ -1,0 +1,53 @@
+.date-header
+{
+	margin: 1.5em 0px 0.5em;
+	color: #999;
+	letter-spacing: 0.2em;
+	line-height: 1.4em;
+	text-transform: uppercase;
+	display: block;
+}
+
+.post {
+	border-bottom: 1px dotted #CCC;
+	margin: 0.5em 0px 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.post-title
+{
+	color: #C60;
+	font-size: 140%;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin: 0.25em 0px 0px;
+	padding: 0px 0px 4px;
+	
+}
+
+.post-body
+{
+	line-height: 1.6em;
+	margin: 0px 0px 0.75em;
+	display: block;
+    min-height: 60px;
+}
+
+.post-footer
+{
+	color: #999;
+	font: normal normal normal 78%/normal 'Trebuchet MS', Trebuchet, Arial, Verdana, sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	margin: 0.75em 0px;
+	text-transform: uppercase;
+}
+
+.blogerror {
+    color: red;
+    text-decoration: underline;
+}
+
+.blog_newpost, .blog_newpost td, .blog_newpost textarea, .blog_newpost input->text {
+    width: 100%;
+}
